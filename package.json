@@ -1,0 +1,17 @@
+{
+  "name": "consider",
+  "version": "0.1.0",
+  "description": "Exploration of an assertion lib that doesn't throw exceptions, but settles the score in afterEach",
+  "main": "lib/consider.js",
+  "author": "Andreas Lind <andreas@one.com>",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "unexpected": "github:unexpectedjs/unexpected#feature/exposeNotifyPendingPromise"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha --harmony-async-await test.js"
+  }
+}
