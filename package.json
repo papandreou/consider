@@ -5,9 +5,7 @@
   "main": "lib/consider.js",
   "author": "Andreas Lind <andreas@one.com>",
   "license": "BSD-3-Clause",
-  "dependencies": {
-    "unexpected": "^10.22.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "mocha": "^3.2.0"
   },
