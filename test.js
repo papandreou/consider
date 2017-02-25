@@ -1,4 +1,4 @@
-var consider = require('./lib/consider');
+var consider = require('./lib/consider')(require('unexpected'));
 
 consider.addAssertion('<any> when delayed a bit <assertion>', function (expect, ...rest) {
     return expect.promise(function (run) {
