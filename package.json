@@ -3,7 +3,7 @@
   "version": "0.5.0",
   "description": "Exploration of an assertion lib that doesn't throw exceptions, but settles the score in afterEach",
   "main": "lib/consider.js",
-  "author": "Andreas Lind <andreas@one.com>",
+  "author": "Andreas Lind <andreaslindpetersen@gmail.com>",
   "license": "BSD-3-Clause",
   "dependencies": {},
   "devDependencies": {
