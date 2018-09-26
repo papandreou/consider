@@ -18,6 +18,8 @@
     "unexpected": "^10.27.0"
   },
   "scripts": {
-    "test": "mocha --harmony-async-await test.js"
+    "test": "mocha --harmony-async-await test.js",
+    "lint": "eslint .",
+    "ci": "npm run lint"
   }
 }
