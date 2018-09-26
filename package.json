@@ -7,7 +7,11 @@
   "license": "BSD-3-Clause",
   "dependencies": {},
   "devDependencies": {
+    "eslint": "^5.6.0",
+    "eslint-config-pretty-standard": "^2.0.0",
+    "eslint-plugin-prettier": "^2.6.2",
     "mocha": "^5.2.0",
+    "prettier": "~1.14.3",
     "unexpected": "10.39.0"
   },
   "peerDependencies": {
