@@ -1,7 +1,7 @@
 consider
 ========
 
-Plugin for the [Unexpected](http://unexpected.js.org) that stops
+Plugin for the [Unexpected](http://unexpected.js.org) assertion library that stops
 it from throwing exceptions when an assertion fails. Instead,
 it will hook into `afterEach` and render a report of all assertions
 that failed and succeeded.
