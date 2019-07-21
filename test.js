@@ -31,7 +31,7 @@ describe('consider', () => {
 
   it('should work with async assertions', async () => {
     expect('abc', 'when delayed a bit to equal', 'abe');
-    let captures = await expect('abc', 'when delayed a bit to match', /^(a)/);
+    const captures = await expect('abc', 'when delayed a bit to match', /^(a)/);
     expect(captures, 'to satisfy', { index: 0 });
   });
 });
