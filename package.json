@@ -25,6 +25,6 @@
   "scripts": {
     "test": "mocha test.js",
     "lint": "eslint . && prettier --check '**/*.js'",
-    "ci": "npm run lint"
+    "ci:test": "npm run test"
   }
 }
