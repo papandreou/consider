@@ -7,7 +7,7 @@
   "license": "BSD-3-Clause",
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^6.0.0",
+    "eslint": "^7.0.0",
     "eslint-config-prettier": "^6.0.0",
     "eslint-config-standard": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
