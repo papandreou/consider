@@ -1,18 +1,18 @@
 const expect = require('unexpected').clone().use(require('./lib/consider'));
 
-expect.addAssertion('<any> when delayed a bit <assertion>', function (
-  expect,
-  ...rest
-) {
-  return expect.promise(function (run) {
-    setTimeout(
-      run(function () {
-        return expect(...rest);
-      }),
-      10
-    );
-  });
-});
+expect.addAssertion(
+  '<any> when delayed a bit <assertion>',
+  function (expect, ...rest) {
+    return expect.promise(function (run) {
+      setTimeout(
+        run(function () {
+          return expect(...rest);
+        }),
+        10
+      );
+    });
+  }
+);
 
 describe('consider', () => {
   it('should fail', () => {
