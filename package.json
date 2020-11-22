@@ -24,6 +24,6 @@
   },
   "scripts": {
     "test": "mocha test.js",
-    "lint": "eslint . && prettier --check '**/*.js'"
+    "lint": "eslint . && prettier --check '**/*.{js,json,md}'"
   }
 }
