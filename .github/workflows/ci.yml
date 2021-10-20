@@ -30,8 +30,6 @@ jobs:
         targets:
           - name: 'Lint'
             target: 'lint'
-          - name: 'Coverage'
-            target: 'coverage'
 
     steps:
       - uses: actions/checkout@v2
