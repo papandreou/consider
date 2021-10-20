@@ -1,7 +1,0 @@
-language: node_js
-
-matrix:
-  include:
-    - name: Lint
-      node_js: 12
-      script: npm run lint
