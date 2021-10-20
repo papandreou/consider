@@ -15,7 +15,7 @@ expect.addAssertion(
 );
 
 describe('consider', () => {
-  it('should fail', () => {
+  it.skip('should fail', () => {
     expect(1, 'to equal', 2);
     expect('abc', 'to equal', 'abc');
     expect(2, 'to equal', 3);
@@ -27,7 +27,7 @@ describe('consider', () => {
     expect(2, 'to equal', 2);
   });
 
-  it('should work with async assertions', async () => {
+  it.skip('should work with async assertions', async () => {
     expect('abc', 'when delayed a bit to equal', 'abe');
     const captures = await expect('abc', 'when delayed a bit to match', /^(a)/);
     expect(captures, 'to satisfy', { index: 0 });
